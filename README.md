@@ -23,12 +23,13 @@ El proyecto implementa un modelo cGAN para realizar la tarea de transformar pint
 
 ### 🎯 Características Principales
 - Conjunto de Datos:
-    - Imágenes sin augmentation: 150
-    - Imágenes con augmentation (Rotación, Rotación Horizontal y Blur): 450
     - Total imágenes: 600
-    - Imágenes para entrenamiento: 500
-    - Imágenes para test: 100
-    - Tamaño Batch: 1
+        - Imágenes sin augmentation: 150
+        - Imágenes con augmentation (Rotación, Rotación Horizontal y Blur): 450
+    - Conjunto de entrenamiento:
+        - Imágenes para entrenamiento: 500
+        - Imágenes para test: 100
+        - Tamaño Batch: 1
     - Tasa de Aprendizaje: 2e-4
     - Épocas: 5000
 
@@ -47,6 +48,7 @@ git clone https://github.com/DonLuisM/Vehicles_detection_YOLO.git
 
 ### 🚀 Próximos Pasos
 
+- Mejorar los parametros de los filtros para un mayor rendimiento del modelo con su arquitectura U-NET.
 - Mejorar la calidad de las imágenes generadas con técnicas avanzadas de ajuste de hiperparámetros y batchsize.
 - Incrementar el conjunto de datos de entrenamiento para lograr resultados más consistentes.
 
