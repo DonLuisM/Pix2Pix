@@ -42,7 +42,8 @@ El proyecto desarrolla e implementa un modelo de redes generativas antagónicas 
 
 ```
 # Clonar el Repositorio
-git clone https://github.com/DonLuisM/Vehicles_detection_YOLO.git
+git clone https://github.com/DonLuisM/Pix2Pix.git
+
 ```
 
 ### 🚀 Próximos Pasos
