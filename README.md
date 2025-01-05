@@ -1,5 +1,4 @@
 #  🖼️ Convertir Pintura en Imagen Usando Redes Generativas Antagónicas Condicionales (cGAN)
-Este proyecto utiliza una red generativa antagónica condicional (cGAN) para transformar pinturas en imágenes realistas, aplicando técnicas avanzadas de visión por computadora y aprendizaje profundo. Las pinturas de las imágenes fueron realizadas con apoyo de la librería cv2 para posteriormente ser guardadas en una carpeta y realizar el entrenamiento del modelo neuronal.
 
 ![Resultados del Modelo](results/output_model_1.png)
 ![Resultados del Modelo](results/output_model_2.png)
@@ -7,7 +6,7 @@ Este proyecto utiliza una red generativa antagónica condicional (cGAN) para tra
 
 
 ## 📖 Descripción del Proyecto
-El proyecto implementa un modelo cGAN para realizar la tarea de transformar pinturas simples en imágenes detalladas y realistas. Utiliza técnicas de procesamiento de imágenes, redes neuronales profundas y frameworks modernos para optimizar el rendimiento del modelo.
+El proyecto desarrolla e implementa un modelo de redes generativas antagónicas condicionales (cGAN) para transformar pinturas simples en imágenes detalladas y realistas. Utiliza técnicas avanzadas de procesamiento de imágenes, visión por computadora y aprendizaje profundo. Las pinturas iniciales fueron generadas y procesadas con la biblioteca OpenCV (cv2), almacenadas en una carpeta para su posterior uso en el entrenamiento del modelo. Este enfoque destaca el potencial de las cGAN en aplicaciones artísticas y visuales, además de hacer uso de traducción imagen a imagen (Pix2Pix).
 
 ### 🛠 Tecnologías Utilizadas
 - Red Neuronal: Conditional GAN (cGAN).
